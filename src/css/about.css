@@ -1,4 +1,63 @@
 .nav-about {
-	background-color: #9cd7d3;
-	border-radius: 0.5rem 0.5rem 0 0;
+	background-color: var(--color-title);
+	color: var(--color-primary);
+	border-radius: var(--border-radius-top);
+}
+.nav-about:hover {
+	color: var(--color-primary);
+}
+
+.about-us,
+.info-box,
+.about-txt {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-top,
+.img-bottom,
+.txt-middle {
+	border-radius: var(--border-radius-left);
+}
+
+.img-middle,
+.txt-top,
+.txt-bottom {
+	border-radius: var(--border-radius-right);
+}
+
+.about-us {
+	flex-direction: column;
+}
+
+.info-box {
+	height: auto;
+}
+
+.about-img {
+	display: flex;
+	height: 28.5rem;
+}
+
+.about-txt {
+	background-color: var(--color-primary);
+	color: var(--color-secondary);
+	opacity: 0.9;
+	width: 25rem;
+	height: 28.5rem;
+	padding: 1rem;
+	margin: 0;
+}
+
+.info-top {
+	margin-top: 5rem;
+}
+
+.info-middle {
+	margin: 5rem 0;
+}
+
+.info-bottom {
+	margin-bottom: 5rem;
 }

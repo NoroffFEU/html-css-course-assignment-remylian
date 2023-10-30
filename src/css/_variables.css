@@ -4,4 +4,9 @@
 :root {
 	--color-primary: #0a3641;
 	--color-secondary: #ebebeb;
+	--color-activity: #fbaf00;
+	--color-title: #9cd7d3;
+	--border-radius-left: 0.5rem 0 0 0.5rem;
+	--border-radius-right: 0 0.5rem 0.5rem 0;
+	--border-radius-top: 0.5rem 0.5rem 0 0;
 }
