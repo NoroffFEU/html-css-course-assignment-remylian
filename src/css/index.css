@@ -7,3 +7,34 @@
 .nav-home:hover {
 	color: var(--color-primary);
 }
+
+.featured-items {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 8rem;
+}
+
+.featured-item {
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	text-align: center;
+}
+
+.featured-item a {
+	display: grid;
+	justify-items: center;
+	width: 20rem;
+	height: auto;
+}
+
+.featured-item img {
+	width: 100%;
+	height: auto;
+}
+
+.item-name {
+	background-color: var(--color-activity);
+	color: var(--color-primary);
+	width: 100%;
+}
