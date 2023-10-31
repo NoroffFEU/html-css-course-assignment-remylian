@@ -12,6 +12,8 @@
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 8rem;
+	background-image: url(/assets/images/shared/raindrops-background.png);
+	background-size: cover;
 }
 
 .featured-item {
@@ -31,10 +33,33 @@
 .featured-item img {
 	width: 100%;
 	height: auto;
+	border-radius: var(--border-radius-top);
 }
 
 .item-name {
 	background-color: var(--color-activity);
 	color: var(--color-primary);
+	border-radius: var(--border-radius-bottom);
 	width: 100%;
+}
+
+.dual-items {
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+}
+
+.featured-men img {
+	border-radius: 0;
+	border-bottom: solid var(--color-activity);
+}
+
+.featured-women img {
+	border-radius: 0;
+}
+.dual-upper {
+	border-radius: var(--border-radius-top);
+}
+
+.dual-lower {
+	border-radius: var(--border-radius-bottom);
 }
