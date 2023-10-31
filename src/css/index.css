@@ -27,12 +27,12 @@
 	display: grid;
 	justify-items: center;
 	width: 20rem;
-	height: auto;
+	/* height: auto; */
 }
 
 .featured-item img {
 	width: 100%;
-	height: auto;
+	/* height: auto; */
 	border-radius: var(--border-radius-top);
 }
 
@@ -46,6 +46,11 @@
 .dual-items {
 	display: grid;
 	grid-template-rows: repeat(2, 1fr);
+}
+
+.dual-items img {
+	/* height: 50%; */
+	object-fit: cover;
 }
 
 .featured-men img {
