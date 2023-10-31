@@ -7,3 +7,71 @@
 .nav-sale:hover {
 	color: var(--color-primary);
 }
+
+.jackets {
+	display: grid;
+	grid-template-columns: repeat(3, 20rem);
+	grid-gap: 8rem;
+	justify-content: center;
+	padding: 10rem 0;
+}
+
+.jacket-name {
+	background-color: white;
+	color: var(--color-primary);
+	border-bottom: 0.3px solid black;
+	border-radius: var(--border-radius-top);
+	text-align: center;
+	padding: var(--card-name-padding);
+	font-weight: var(--card-text-bold);
+	font-size: 1.5rem;
+}
+
+.jacket-card {
+	position: relative;
+	width: 20rem;
+	height: auto;
+}
+
+.jacket-card .jacket-name {
+	transition: background-color 0.5s;
+}
+
+.jacket-card a:hover .jacket-name {
+	background-color: var(--color-title);
+	color: black;
+}
+
+.jacket-price {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding-bottom: 1rem;
+	font-size: 1.5rem;
+	color: black;
+	rotate: -45deg;
+	z-index: -1;
+}
+
+.jacket-card img:hover {
+	border-radius: 0 0 10rem 0;
+	transition: 0.5s;
+}
+
+.jacket-card img {
+	width: 100%;
+	height: auto;
+	transition: border-radius 0.5s;
+	border-radius: var(--border-radius-bottom);
+}
+
+.jacket-btn {
+	display: block;
+	background-color: var(--color-activity);
+	width: 100%;
+	height: 3rem;
+	font-size: 1.5rem;
+	border-radius: 0.5rem;
+
+	margin-top: 1rem;
+}
