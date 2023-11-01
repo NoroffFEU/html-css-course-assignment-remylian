@@ -8,23 +8,54 @@
 	color: var(--color-primary);
 }
 
-.info-text {
+.contact-us {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.info-text,
+.info-response {
 	display: flex;
 	justify-content: center;
 }
 
-.info-text p {
+.info-text p,
+.info-response p {
 	padding: 1rem;
 	border-radius: 0.5rem;
 	background-color: var(--color-primary);
 	color: var(--color-secondary);
 }
 
-.forms {
+.response {
 	display: flex;
-	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 5rem;
 }
 
-/* .form-info{
+.response-icons {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 3rem;
+}
 
-} */
+.response-icon {
+	display: flex;
+	justify-content: space-evenly;
+	/* background-color: var(--color-activity); */
+}
+
+button {
+	background-color: var(--color-activity);
+	width: 50%;
+	align-self: center;
+}
+
+.forms {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-items: center;
+}
