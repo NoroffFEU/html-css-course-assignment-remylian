@@ -7,3 +7,24 @@
 .nav-contact:hover {
 	color: var(--color-primary);
 }
+
+.info-text {
+	display: flex;
+	justify-content: center;
+}
+
+.info-text p {
+	padding: 1rem;
+	border-radius: 0.5rem;
+	background-color: var(--color-primary);
+	color: var(--color-secondary);
+}
+
+.forms {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* .form-info{
+
+} */
