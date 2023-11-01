@@ -12,6 +12,7 @@
 	--border-radius-right: 0 0.5rem 0.5rem 0;
 	--border-radius-top: 0.5rem 0.5rem 0 0;
 	--border-radius-bottom: 0 0 0.5rem 0.5rem;
+	--border-radius-full: 0.5rem;
 
 	--card-name-padding: 0.5rem 0;
 	--card-text-bold: bold;
