@@ -1,0 +1,26 @@
+.sizes,
+.size,
+.colours,
+.colour,
+.visuals {
+	border: 1px solid black;
+}
+
+.visuals {
+	display: flex;
+	justify-content: center;
+	align-items: end;
+}
+
+.colours {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.colour {
+}
+.sizes {
+	display: flex;
+	justify-content: space-between;
+}
