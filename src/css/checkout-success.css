@@ -1,0 +1,43 @@
+main {
+	background-image: url(/assets/images/shared/raindrops-background.png);
+	background-size: cover;
+}
+.success {
+	display: flex;
+	/* flex-direction: column; */
+	align-items: center;
+	gap: 3rem;
+	justify-content: center;
+	padding-top: 8rem;
+	padding-bottom: 3rem;
+}
+
+.success-box {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 8px solid var(--color-activity);
+	border-radius: 0.6rem;
+	width: 25rem;
+}
+
+.success-message {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding-block: 2rem;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 8rem;
+}
+.cta-btn {
+	background-color: var(--color-activity);
+	border-radius: 0.6rem;
+	width: 14.5rem;
+	padding: 1.5rem;
+}
