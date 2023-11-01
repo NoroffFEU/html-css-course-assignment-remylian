@@ -1,0 +1,17 @@
+.form-wrapper,
+.form-payment {
+	border: 1px solid black;
+}
+
+.ship-and-pay {
+	display: flex;
+	gap: 5rem;
+	/* flex-direction: column; */
+	justify-content: center;
+	align-items: start;
+}
+
+.info-text .info-title,
+.payment-text {
+	margin: 0;
+}
