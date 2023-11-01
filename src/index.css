@@ -12,7 +12,7 @@
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 8rem;
-	background-image: url(/assets/images/shared/raindrops-background.png);
+	background-image: url(../assets/images/shared/raindrops-background.png);
 	background-size: cover;
 }
 
