@@ -44,15 +44,14 @@
 			</div>
 			<div class="title"><h2>Shipping And Payment</h2></div>
 
+			<div class="info-text">
+				<p>Please fill out your details to complete your purchase.</p>
+			</div>
+
 			<section class="ship-and-pay">
-				<div class="info-text">
-					<p>Please fill out your details to complete your purchase.</p>
-				</div>
-
 				<div class="form-wrapper">
-					<form class="form-shipping" action="">
+					<form class="form-billing-shipping" action="">
 						<h3>Billing</h3>
-
 						<p class="info-title">Name</p>
 						<input type="text" />
 						<p class="info-title">Email</p>
@@ -62,42 +61,48 @@
 						<p class="info-title">Shipping Address</p>
 						<input type="text" />
 						<p class="info-title">Postal Code</p>
-						<input type="text" name="billingZipCode"/>
+						<input type="text" name="billingZipCode" />
 						<p class="info-title">City/County</p>
 						<input type="text" />
 						<p class="info-title">Country</p>
 						<select name="billingCountry" id="billingCountry">
-              <option value="Norway">Norway</option>              
-            </select>
-          </div>
-          
-          <div class="form-wrapper">
+							<option value=" - ">-</option>
+							<option value="Norway">Norway</option>
+						</select>
+
 						<h3>Shipping</h3>
 
 						<p class="info-title">Same as billing</p>
 						<input type="checkbox" name="sameAsBilling" />
 						<p class="info-title">Adress</p>
-						<input type="text" name="shippingAdress" id="shippingAdress"/>
+						<input type="text" name="shippingAdress" id="shippingAdress" />
 						<p class="info-title">Postal Code</p>
-						<input type="text" name="shippingZipCode"/>
+						<input type="text" name="shippingZipCode" />
 						<p class="info-title">City/County</p>
-						<input type="text" name="shippingCity"/>
-            <p class="info-title">Country</p>
-            <select name="shippingCountry" id="shippingCountry">
-              <option value="Norway">Norway</option>
-            </select>
+						<input type="text" name="shippingCity" />
+						<p class="info-title">Country</p>
+						<select name="shippingCountry" id="shippingCountry">
+							<option value=" - ">-</option>
+							<option value="Norway">Norway</option>
+						</select>
 					</form>
 				</div>
-        <button class="ship-and-pay-btn">Submit and Complete</button>
 
-        <div class="form-wrapper">
-          form.
-          <p class="payment-title"></p>
-          <p class="payment-title"></p>
-          <p class="payment-title"></p>
-          <p class="payment-title"></p>
-
-        </div>
+				<div class="form-wrapper">
+					<form action="" class="payment">
+						<p class="payment-title">Cardholder's Name</p>
+						<input type="text" name="cardHolderName" id="cardHolderName" />
+						<p class="payment-title">Card Number</p>
+						<input type="text" name="cardNumber" id="cardNumber" />
+						<p class="payment-title">Expiry Date (MM/YY)</p>
+						<input type="text" name="expiryDate" id="expiryDate" />
+						<p class="payment-title">CvC/Cvv2</p>
+						<input type="text" name="cvv" id="cvv" />
+					</form>
+					<div class="submit-btn">
+						<button class="ship-and-pay-btn">Submit and Complete</button>
+					</div>
+				</div>
 			</section>
 		</main>
 
