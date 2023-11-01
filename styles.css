@@ -1,9 +1,9 @@
-@import url('./_reset.css');
-@import url('./_variables.css');
-@import url('./_header.css');
-@import url('./_footer.css');
-@import url('./_banner.css');
-@import url('./_title.css');
+@import url('_reset.css');
+@import url('_variables.css');
+@import url('_header.css');
+@import url('_footer.css');
+@import url('_banner.css');
+@import url('_title.css');
 
 body {
 	color: var(--color-primary);
