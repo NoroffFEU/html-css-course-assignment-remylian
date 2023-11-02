@@ -1,5 +1,5 @@
 main {
-	background-image: url(/assets/images/shared/raindrops-background.png);
+	background-image: url(../../assets/images/shared/raindrops-background.png);
 	background-size: cover;
 }
 .success {
