@@ -1,12 +1,12 @@
-@import url('src/css/partials/reset.css');
-@import url('src/css/partials/variables.css');
-@import url('src/css/partials/header.css');
-@import url('src/css/partials/footer.css');
-@import url('src/css/partials/banner.css');
-@import url('src/css/partials/title.css');
+@import url('./src/css/partials/reset.css');
+@import url('./src/css/partials/variables.css');
+@import url('./src/css/partials/header.css');
+@import url('./src/css/partials/footer.css');
+@import url('./src/css/partials/banner.css');
+@import url('./src/css/partials/title.css');
 
 /* i couldnt get the importrule to work with github pages, so i made a 
-shared.css and copypasted all the partials in one file.  */
+shared.css and copypasted all the partials in one file. porbably better for performance anyway :P  */
 
 body {
 	color: var(--color-primary);
