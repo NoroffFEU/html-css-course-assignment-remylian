@@ -15,7 +15,6 @@ a {
 
 .header-right {
 	display: flex;
-	/* gap: 1rem; */
 }
 
 .header-nav {
@@ -28,6 +27,7 @@ a {
 	height: 100%;
 	text-align: center;
 	padding-top: 0.5rem;
+	padding-bottom: 0.25rem;
 }
 
 .nav-item:hover {

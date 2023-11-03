@@ -8,34 +8,6 @@
 	color: var(--color-primary);
 }
 
-.featured-items {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 8rem;
-	background-image: url(assets/images/shared/raindrops-background.png);
-	background-size: cover;
-}
-
-.featured-item {
-	display: grid;
-	justify-items: center;
-	align-items: center;
-	text-align: center;
-}
-
-.featured-item a {
-	display: grid;
-	justify-items: center;
-	width: 20rem;
-	/* height: auto; */
-}
-
-.featured-item img {
-	width: 100%;
-	/* height: auto; */
-	border-radius: var(--border-radius-top);
-}
-
 .item-name {
 	background-color: var(--color-activity);
 	color: var(--color-primary);
@@ -43,28 +15,31 @@
 	width: 100%;
 }
 
-.dual-items {
-	display: grid;
-	grid-template-rows: repeat(2, 1fr);
-}
-
-.dual-items img {
-	/* height: 50%; */
-	object-fit: cover;
-}
-
 .featured-men img {
 	border-radius: 0;
 	border-bottom: solid var(--color-activity);
 }
 
-.featured-women img {
-	border-radius: 0;
-}
-.dual-upper {
-	border-radius: var(--border-radius-top);
+.featured-items {
+	display: flex;
+	justify-content: space-around;
+
+	background-image: url(assets/images/shared/raindrops-background.png);
+	background-size: cover;
 }
 
-.dual-lower {
-	border-radius: var(--border-radius-bottom);
+.img-container,
+.featured-item {
+	display: flex;
+	flex-direction: column;
+}
+.featured-item {
+	align-items: center;
+	padding-block: 8rem;
+}
+
+.img-container img {
+	width: 100%;
+	height: 15rem;
+	border-radius: var(--border-radius-top);
 }
