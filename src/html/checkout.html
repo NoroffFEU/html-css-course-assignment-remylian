@@ -8,9 +8,9 @@
 		<link
 			href="https://fonts.googleapis.com/css2?family=Alegreya&family=Bacasime+Antique&family=Girassol&family=Lobster&display=swap"
 			rel="stylesheet" />
-		<link rel="stylesheet" href="../../styles.css" />
+	<link rel="stylesheet" href="../../styles.css">
 		<link rel="stylesheet" href="../css/checkout.css" />
-		<title>Document</title>
+		<title>Rainydays - checkout</title>
 	</head>
 	<body>
 		<header>
@@ -39,12 +39,13 @@
 		</header>
 
 		<main>
-			<div class="banner">
+			<section class="banner">
 				<img
 					class="banner-img"
 					src="../../assets/images/shared/Rainydays-banner.jpg"
 					alt=" banner description" />
-			</div>
+			</section>
+			
 			<div class="title"><h2>Shipping And Payment</h2></div>
 
 			<div class="info-text">
@@ -52,61 +53,63 @@
 			</div>
 
 			<section class="ship-and-pay">
-				<div class="form-wrapper">
-					<form class="form-billing-shipping" action="">
-						<h3>Billing</h3>
-						<p class="info-title">Name</p>
-						<input type="text" />
-						<p class="info-title">Email</p>
-						<input type="email" />
-						<p class="info-title">Phone (optional)</p>
-						<input type="tel" />
-						<p class="info-title">Shipping Address</p>
-						<input type="text" />
-						<p class="info-title">Postal Code</p>
-						<input type="text" name="billingZipCode" />
-						<p class="info-title">City/County</p>
-						<input type="text" />
-						<p class="info-title">Country</p>
-						<select name="billingCountry" id="billingCountry">
-							<option value=" - ">-</option>
-							<option value="Norway">Norway</option>
+				<form class="form-billing-shipping-payment" action="" aria-labelledby="billingHeading">
+					<h3 id="billingHeading">Billing</h3>
+					
+					<fieldset class="form-billing">
+						<label for="Name">Name</label>
+						<input type="text"  name="Name" id="Name">
+
+						<label for="eMail">eMail</label>
+						<input type="email" name="phone" id="phone" >
+
+						<label for="phone">Phone Nr.(optional)</label>
+						<input type="tel" name="phone" id="phone">
+
+						<label for="adress">Billing Address</label>
+						<input type="text" name="billingAddress" id="billingAddress">
+
+						<label for="postalCode">Postal Code</label>
+						<input type="number" name="postalCode" id="postalCode">
+
+						<label for="city">City</label>
+						<input type="text" name="city" id="city">
+
+						<label for="Country">Country</label>
+						<select name="country" id="country">
+							<option value=" - "> - </option>
+							<option value="norway">Norway</option>
+							<option value="oliversHouse">Oliver's House</option>
 						</select>
-
-						<h3>Shipping</h3>
-
-						<p class="info-title">Same as billing</p>
-						<input type="checkbox" name="sameAsBilling" />
-						<p class="info-title">Adress</p>
-						<input type="text" name="shippingAdress" id="shippingAdress" />
-						<p class="info-title">Postal Code</p>
-						<input type="text" name="shippingZipCode" />
-						<p class="info-title">City/County</p>
-						<input type="text" name="shippingCity" />
-						<p class="info-title">Country</p>
-						<select name="shippingCountry" id="shippingCountry">
-							<option value=" - ">-</option>
-							<option value="Norway">Norway</option>
-						</select>
-					</form>
-				</div>
-
-				<div class="form-wrapper">
-					<form action="" class="payment">
-						<p class="payment-title">Cardholder's Name</p>
-						<input type="text" name="cardHolderName" id="cardHolderName" />
-						<p class="payment-title">Card Number</p>
-						<input type="text" name="cardNumber" id="cardNumber" />
-						<p class="payment-title">Expiry Date (MM/YY)</p>
-						<input type="text" name="expiryDate" id="expiryDate" />
-						<p class="payment-title">CvC/Cvv2</p>
-						<input type="text" name="cvv" id="cvv" />
-					</form>
-					<div class="submit-btn">
-						<button class="ship-and-pay-btn">Submit and Complete</button>
+					</fieldset>
+					
+					<div class="shippingandbilling-same">
+						<input class="checkbox-shipping" type="checkbox" name="shippingSameAsBilling" id="shippingSameAsBilling">
+						<label for="shippingSameAsBilling">Shipping address same as billing</label>
 					</div>
-				</div>
-			</section>
+					<h3>Shipping</h3>
+
+					
+					<fieldset class="form-shipping">
+						<label for="shippingaddress">Shipping Adress</label>
+						<input type="text" name="shippingaddress" id="shippingaddress">
+
+						<label for="postalCode">Postal Code</label>
+						<input type="number" name="postalCode" id="postalCode">
+
+						<label for="city">City</label>
+						<input type="text" name="city" id="city">
+
+						<label for="country">Country</label>
+						<select name="country" id="country">
+							<option value=" - "> - </option>
+							<option value="norway">Norway</option>
+							<option value="oliversHouse">Oliver's House</option>
+					</fieldset>
+				</form>
+				
+				
+		
 		</main>
 
 		<footer class="footer-main">

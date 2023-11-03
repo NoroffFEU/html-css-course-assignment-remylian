@@ -1,7 +1,7 @@
 .nav-contact {
 	background-color: #9cd7d3;
-	color: var(--color-primary);
 	border-radius: var(--border-radius-top);
+	color: var(--color-primary);
 }
 
 .nav-contact:hover {
@@ -17,17 +17,17 @@
 
 .info-text,
 .info-response {
-	display: flex;
-	justify-content: center;
 	padding-block: 3rem;
 	/* border: 1px solid black; */
+	display: flex;
+	justify-content: center;
 }
 
 .info-text p,
 .info-response p {
 	padding: 1rem;
-	border-radius: var(--border-radius-full);
 	background-color: var(--color-primary);
+	border-radius: var(--border-radius-full);
 	color: var(--color-secondary);
 }
 
@@ -40,7 +40,6 @@
 
 .response {
 	/* border: 1px solid black; */
-
 	grid-column: 2;
 	padding-bottom: 5rem;
 }
@@ -52,28 +51,26 @@
 }
 
 .response-icon {
+	/* background-color: var(--color-activity); */
 	display: flex;
 	justify-content: space-evenly;
-	/* background-color: var(--color-activity); */
 }
 
 .response button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
-	background-color: var(--color-activity);
 	width: 75%;
 	margin: auto auto;
+	background-color: var(--color-activity);
 }
 
 .forms {
-	border: 1px solid black;
-
 	display: grid;
 	gap: 4.5rem;
 	grid-template-columns: repeat(2, 1fr);
 	width: 100%;
+	border: 1px solid black;
 }
 
 .form-info,
