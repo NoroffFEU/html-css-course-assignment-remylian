@@ -1,9 +1,0 @@
-.nav-men {
-	background-color: var(--color-title);
-	border-radius: var(--border-radius-top);
-	color: var(--color-primary);
-}
-
-.nav-men:hover {
-	color: var(--color-primary);
-}
