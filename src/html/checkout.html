@@ -45,56 +45,127 @@
 					src="../../assets/images/shared/Rainydays-banner.jpg"
 					alt=" banner description" />
 			</section>
-			
+
 			<div class="title"><h2>Shipping And Payment</h2></div>
 
 			<div class="info-text">
 				<p>Please fill out your details to complete your purchase.</p>
 			</div>
 
-			<section class="ship-and-pay">
-				<div class="form-wrapper">
+			<div class="box">
+				<div class="form-box">
+					<div class="forms">
+						<form action="" class="billing" aria-labelledby="billingInfo">
+							<h3>Billing</h3>
+							<fieldset>
+								<div class="input-field">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" class="input-info" />
+								</div>
 
-					<form class="form-billing-shipping-payment" action="" aria-labelledby="billingHeading">
-						<h3 id="billingHeading">Billing</h3>
-						
-						<fieldset class="form-billing">
-							<label for="Name">Name</label>
-							<input type="text"  name="Name" id="Name">
-	
-							<label for="eMail">eMail</label>
-							<input type="email" name="phone" id="phone" >
-	
-							<label for="phone">Phone Nr.(optional)</label>
-							<input type="tel" name="phone" id="phone">
-	
-							<label for="adress">Billing Address</label>
-							<input type="text" name="billingAddress" id="billingAddress">
-	
-							<label for="postalCode">Postal Code</label>
-							<input type="number" name="postalCode" id="postalCode">
-	
-							<label for="city">City</label>
-							<input type="text" name="city" id="city">
-	
-							<label for="Country">Country</label>
-							<select name="country" id="country">
-								<option value=" - "> - </option>
-								<option value="norway">Norway</option>
-								<option value="oliversHouse">Oliver's House</option>
-							</select>
-						</fieldset>
-						<h3>Shipping</h3>
-						<div class="shippingandbilling-same">
-							<input class="checkbox-shipping" type="checkbox" name="shippingSameAsBilling" id="shippingSameAsBilling" checked>
-							<label for="shippingSameAsBilling">Shipping address same as billing</label>
-						
-						</div>	
-					</form>
+								<div class="input-field">
+									<label for="email">eMail</label>
+									<input type="email" name="eMail" id="eMail" class="input-info" />
+								</div>
+
+								<div class="input-field">
+									<label for="phone">Phone nr. (optional)</label>
+									<input type="tel" class="input-info" />
+								</div>
+
+								<div class="input-field">
+									<label for="billinggAddress">Billing Adress</label>
+									<input type="text" class="input-info" />
+								</div>
+
+								<div class="wrapper">
+									<div class="input-field">
+										<label for="billingPostCode">Postal Code</label>
+										<input type="number" class="input-info" />
+									</div>
+
+									<div class="input-field">
+										<label for="billingCity">City</label>
+										<input type="text" class="input-info" />
+									</div>
+								</div>
+
+								<div class="input-field">
+									<label for="Country">Country</label>
+									<select class="input-info" name="country" id="country">
+										<option value=" - ">-</option>
+										<option value="Norway">Norway</option>
+										<option value="oliversHouse">Oliver's House</option>
+									</select>
+								</div>
+							</fieldset>
+							<div class="shipping-checkbox">
+								<input checked type="checkbox" name="shippingBox" id="shippingBox" />
+								<label for="checkbox">Shipping Adress same as Billing Adress</label>
+							</div>
+						</form>
+
+						<form action="" class="shipping" aria-labelledby="shippingInfo">
+							<h3>Shipping</h3>
+							<fieldset>
+								<div class="input-field">
+									<label for="shippingAdress">Shipping Adress</label>
+									<input type="text" name="shippingAdress" id="shippingAdress" class="input-info" />
+								</div>
+
+								<div class="wrapper">
+									<div class="input-field">
+										<label for="shippingPostCode">Postal Code</label>
+										<input
+											type="number"
+											name="shippingPostCode"
+											id="shippingPostCode"
+											class="input-info" />
+									</div>
+									<div class="input-field">
+										<label for="shippingCity">City</label>
+										<input type="text" name="shippingCity" id="shippingCity" class="input-info" />
+									</div>
+								</div>
+								<div class="input-field">
+									<label for="shippingCountry">Country</label>
+									<select class="input-info" name="shippingCountry" id="shippingCountry">
+										<option value=" - ">-</option>
+										<option value="norway">Norway</option>
+										<option value="oliversHouse">Oliver's House</option>
+									</select>
+								</div>
+							</fieldset>
+						</form>
+						<form action="" aria-labelledby="paymentInfo">
+							<h3>Payment</h3>
+							<fieldset>
+								<div class="input-field">
+									<label for="name">Cardholder's Name</label>
+									<input class="input-info" type="text" name="name" id="name" />
+								</div>
+
+								<div class="input-field">
+									<label for="cardNumber">Card Number</label>
+									<input class="input-info" type="number" name="cardNumber" id="cardNumber" />
+								</div>
+								<div class="wrapper">
+									<div class="input-field payment-field">
+										<label for="expiryDate">Exp.Date</label>
+										<input class="payment-info" type="text" name="expiryDate" id="expiryDate" />
+									</div>
+
+									<div class="input-field payment-field">
+										<label for="cvv">Cvv</label>
+										<input class="payment-info" type="number" name="cvv" id="cvv" />
+									</div>
+								</div>
+							</fieldset>
+							<a class="checkout-btn" href="checkout-success.html">Submit and complete</a>
+						</form>
+					</div>
 				</div>
-				
-				
-		
+			</div>
 		</main>
 
 		<footer class="footer-main">
