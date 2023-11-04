@@ -8,6 +8,7 @@
 body {
 	color: var(--color-primary);
 	background-color: var(--color-secondary);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .centered {

@@ -1,14 +1,13 @@
 .visuals {
+	padding-block: 4rem;
 	display: flex;
-	gap: 2rem;
 	justify-content: center;
 	align-items: end;
-	padding-top: 4rem;
+	gap: 2rem;
 }
 
 .visuals img {
-	border-radius: 0.5rem;
-	/* padding-top: 4rem; */
+	border-radius: var(--border-radius-full);
 }
 
 .colour-and-size,
@@ -19,9 +18,9 @@
 }
 
 .colour-container {
+	padding-block: 1rem;
 	display: flex;
 	gap: 1rem;
-	padding-block: 1rem;
 }
 
 .colour-info,
@@ -32,10 +31,11 @@
 }
 
 .colour {
-	border: 1px solid black;
-	height: 2.75rem;
 	width: 2.75rem;
+	height: 2.75rem;
+	border: 1px solid black;
 }
+
 .sizes {
 	display: flex;
 	flex-direction: column;
@@ -50,26 +50,46 @@
 .sizes p {
 	text-align: center;
 }
-
 .blue {
 	background-color: #4864bf;
 }
 
+.blue:hover {
+	box-shadow: inset 3px 3px 3px 0 #0e1631;
+	transition: 0.5s;
+}
+
 .sand {
 	background-color: #f1d59f;
+}
+.sand:hover {
+	box-shadow: inset 3px 3px 3px 0 #3d3422;
+	transition: 0.5s;
 }
 
 .red {
 	background-color: #811f29;
 }
 
+.red:hover {
+	box-shadow: inset 3px 3px 3px 0 #270b0b;
+	transition: 0.5s;
+	border: 1px solid black;
+}
+
 .green {
 	background-color: #575d52;
 }
 
+.green:hover {
+	box-shadow: inset 3px 3px 3px 0 #171b13;
+	transition: 0.5s;
+}
+
 .img-button-wrapper img {
-	border-radius: 0.5rem;
+	box-shadow: var(--box-shadow-black);
 	max-width: 40rem;
+	border-radius: 0.5rem;
 }
 
 .button-wrapper {
@@ -80,22 +100,61 @@
 }
 
 .price {
-	background-color: var(--color-title);
-	text-align: center;
+	width: 20%;
 	padding: 1rem;
+	background-color: var(--color-title);
 	border: 1px solid black;
 	border-radius: 0.7rem;
 	font-size: 2rem;
 	font-weight: bold;
-	width: 20%;
+	text-align: center;
 }
 
-.button-wrapper button {
-	background-color: var(--color-activity);
-
+.cta-btn {
 	width: 40%;
 	padding: 1rem;
+	background-color: var(--color-activity);
+	border: 2px solid var(--color-primary);
 	border-radius: 0.7rem;
 	font-size: 2rem;
 	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+.cta-btn:hover {
+	transition: 0.5s;
+	background-color: var(--color-primary);
+	color: var(--color-activity);
+}
+
+h3 {
+	text-decoration: underline;
+}
+
+.description {
+	flex-direction: column;
+}
+
+.description-text {
+	padding-block: 2rem;
+	width: 50%;
+	border-top: 2px solid black;
+	font-size: 1.1rem;
+	text-align: left;
+}
+
+.text-wrapper {
+	width: 50%;
+	padding-bottom: 1rem;
+	text-align: left;
+}
+
+.description ol {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 52%;
+	border-bottom: 2px solid black;
+	text-align: left;
 }
