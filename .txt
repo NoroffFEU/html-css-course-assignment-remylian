@@ -1,0 +1,16 @@
+				<fieldset class="form-shipping">
+						<label for="shippingaddress">Shipping Adress</label>
+						<input type="text" name="shippingaddress" id="shippingaddress">
+
+						<label for="postalCode">Postal Code</label>
+						<input type="number" name="postalCode" id="postalCode">
+
+						<label for="city">City</label>
+						<input type="text" name="city" id="city">
+
+						<label for="country">Country</label>
+						<select name="country" id="country">
+							<option value=" - "> - </option>
+							<option value="norway">Norway</option>
+							<option value="oliversHouse">Oliver's House</option>
+					</fieldset>

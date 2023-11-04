@@ -10,15 +10,14 @@
 
 .contact-us {
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 }
 
 .info-text,
 .info-response {
 	padding-block: 3rem;
-	/* border: 1px solid black; */
 	display: flex;
 	justify-content: center;
 }
@@ -29,66 +28,86 @@
 	background-color: var(--color-primary);
 	border-radius: var(--border-radius-full);
 	color: var(--color-secondary);
-}
-
-.form-info P,
-.form-query P,
-.info-text p,
-.info-response p {
 	margin: 0;
 }
 
-.response {
-	/* border: 1px solid black; */
-	grid-column: 2;
-	padding-bottom: 5rem;
-}
-
-.response-icons {
+.boxes {
 	display: flex;
-	justify-content: space-between;
-	padding-bottom: 3rem;
-}
-
-.response-icon {
-	/* background-color: var(--color-activity); */
-	display: flex;
-	justify-content: space-evenly;
-}
-
-.response button {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 75%;
-	margin: auto auto;
-	background-color: var(--color-activity);
+	justify-content: space-around;
+	flex-direction: column;
 }
 
 .forms {
 	display: grid;
-	gap: 4.5rem;
 	grid-template-columns: repeat(2, 1fr);
+	gap: 10rem;
 	width: 100%;
-	border: 1px solid black;
 }
 
-.form-info,
+.form-info {
+	display: flex;
+	align-self: baseline;
+	width: 100%;
+}
+
 .form-query {
-	padding-block: 2rem;
+	padding: 1rem;
+	flex-direction: column;
+	align-self: flex-end;
 }
 
-.input-info,
-.input-query {
-	width: 100%;
-	height: auto;
+.textarea-box {
+	padding: 0.5rem;
+}
+
+.input-field {
+	padding-bottom: 1rem;
+	display: flex;
+	align-items: baseline;
+	flex-direction: column;
+	width: 20rem;
+}
+
+.response {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 3rem;
+	width: 50%;
+	/* border: 1px solid black; */
+	align-self: flex-end;
+}
+
+.response-icons {
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 2rem;
+}
+
+.response button {
+	padding: 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	width: 40%;
+	margin: auto auto;
 	border-radius: var(--border-radius-full);
+	background-color: var(--color-activity);
+	font-weight: bold;
+	font-size: 1rem;
 }
 
 .input-info {
+	width: 100%;
+	border-radius: var(--border-radius-full);
 	padding: 1rem;
+	box-shadow: var(--box-shadow-grey);
 }
 
-.input-query {
-	padding: 4.5rem;
+textarea {
+	border-radius: var(--border-radius-full);
+	box-shadow: var(--box-shadow-grey);
+}
+
+fieldset {
+	border: none;
 }

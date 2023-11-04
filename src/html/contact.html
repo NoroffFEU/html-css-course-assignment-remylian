@@ -39,17 +39,17 @@
 		</header>
 
 		<main>
-			<div class="banner">
+			<section class="banner">
 				<img
 					class="banner-img"
 					src="../../assets/images/shared/Rainydays-banner.jpg"
 					alt=" banner description" />
-			</div>
+			</section>
 			<div class="title">
 				<h2>Contact Us!</h2>
 			</div>
 
-			<section class="contact-us">
+			<section class="contact-us centered">
 				<div class="info-text">
 					<p>
 						Please fill out the form and submit your Query, and one of our employees will respond by
@@ -60,43 +60,58 @@
 				<div class="boxes">
 					<div class="forms">
 						<div class="form-info">
-							<form action="">
-								<label for="Name"></label>
-								<input class="input-info" type="text" name="Name" id="Name" />
+							<form action="" aria-labelledby="customerInfo">
+								<fieldset>
+									<div class="input-field">
+										<label for="Name">Name</label>
+										<input class="input-info" type="text" name="Name" id="Name" />
+									</div>
 
-								<input class="input-info" type="text" name="email" id="email" />
+									<div class="input-field">
+										<label for="eMail">eMail</label>
+										<input class="input-info" type="email" name="email" id="email" />
+									</div>
 
-								<input class="input-info" type="text" name="phone" id="phone" />
+									<div class="input-field">
+										<label for="phone">Phone nr</label>
+										<input class="input-info" type="tel" name="phone" id="phone" />
+									</div>
+								</fieldset>
 							</form>
 						</div>
 
 						<div class="form-query">
-							<form action="">
-								<label for="query"></label>
-								<input class="input-query" type="text" name="query" id="query" aria-label="query" />
+							<form action="" aria-labelledby="yourQuery">
+								<fieldset>
+									<textarea
+										class="textarea-box"
+										name="query"
+										id="query"
+										cols="30"
+										rows="15"
+										placeholder="How may we be of service?"></textarea>
+								</fieldset>
 							</form>
 						</div>
-						<div class="response">
-							<div class="info-response">
-								<p>Please select your preferred method of response</p>
-							</div>
-							<div class="response-icons">
-								<div class="response-icon">
-									<img
-										src="../../assets/images/contact-us/contact icons-phone.svg"
-										alt="phone icon" />
-								</div>
-								<div class="response-icon">
-									<img
-										src="../../assets/images/contact-us/contact icons-mail.svg"
-										alt="mail icon" />
-								</div>
-								<div class="response-icon">
-									<img src="../../assets/images/contact-us/contact icons-chat.svg" alt="" />
-								</div>
-							</div>
-							<button>Submit</button>
+					</div>
+					<div class="response">
+						<div class="info-response">
+							<p>Please select your preferred method of response</p>
 						</div>
+						<div class="response-icons">
+							<div class="response-icon">
+								<img
+									src="../../assets/images/contact-us/contact icons-phone.svg"
+									alt="phone icon" />
+							</div>
+							<div class="response-icon">
+								<img src="../../assets/images/contact-us/contact icons-mail.svg" alt="mail icon" />
+							</div>
+							<div class="response-icon">
+								<img src="../../assets/images/contact-us/contact icons-chat.svg" alt="" />
+							</div>
+						</div>
+						<button class="submit-query">Submit Query</button>
 					</div>
 				</div>
 			</section>
