@@ -1,9 +1,10 @@
-@import url('./src/css/partials/reset.css');
-@import url('./src/css/partials/variables.css');
-@import url('./src/css/partials/header.css');
-@import url('./src/css/partials/footer.css');
-@import url('./src/css/partials/banner.css');
-@import url('./src/css/partials/title.css');
+@import url('./src/css-partials/reset.css');
+@import url('./src/css-partials/variables.css');
+@import url('./src/css-partials/header.css');
+@import url('./src/css-partials/footer.css');
+@import url('./src/css-partials/banner.css');
+@import url('./src/css-partials/title.css');
+@import url('./src/css-partials/jackets.css');
 
 body {
 	color: var(--color-primary);

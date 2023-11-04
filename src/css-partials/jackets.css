@@ -1,19 +1,34 @@
-.nav-men {
-	background-color: var(--color-title);
-	border-radius: var(--border-radius-top);
-	color: var(--color-primary);
-}
-
-.nav-men:hover {
-	color: var(--color-primary);
-}
-
 .jackets {
 	display: grid;
 	justify-content: center;
 	grid-template-columns: repeat(3, 20rem);
 	grid-gap: 8rem;
 	padding: 10rem 0;
+}
+.jacket-card img {
+	box-shadow: var(--box-shadow-black);
+	width: 15rem;
+	height: auto;
+}
+
+.jacket-btn {
+	display: block;
+	width: 100%;
+	margin-top: 1rem;
+	padding: 0.5rem;
+	background-color: var(--color-activity);
+	border: 2px solid black;
+	border-radius: var(--border-radius-full);
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+
+.jacket-btn:hover {
+	transition: 0.5s;
+	background-color: var(--color-primary);
+	color: var(--color-activity);
 }
 
 .jacket-name {
@@ -63,23 +78,4 @@
 	height: auto;
 	transition: border-radius 0.5s;
 	border-radius: var(--border-radius-bottom);
-}
-
-.jacket-btn {
-	display: block;
-	width: 100%;
-	height: 3rem;
-	margin-top: 1rem;
-	background-color: var(--color-activity);
-	border-radius: 0.5rem;
-	font-size: 1.5rem;
-	font-weight: bold;
-}
-
-.jacket-btn:hover {
-	box-shadow: 0.1rem 0.1rem 0.3rem 0 grey;
-	transition: 0.3s;
-	background-color: var(--color-btn-hover);
-	cursor: pointer;
-	color: whitesmoke;
 }

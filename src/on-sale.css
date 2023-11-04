@@ -1,0 +1,9 @@
+.nav-sale {
+	background-color: #9cd7d3;
+	color: var(--color-primary);
+	border-radius: var(--border-radius-top);
+}
+
+.nav-sale:hover {
+	color: var(--color-primary);
+}
