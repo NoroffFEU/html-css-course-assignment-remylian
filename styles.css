@@ -7,9 +7,9 @@
 @import url('./src/css/partials/jackets.css');
 
 body {
-	color: var(--color-primary);
 	background-color: var(--color-secondary);
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: var(--color-primary);
 }
 
 .centered {
@@ -20,17 +20,15 @@ body {
 }
 
 .title h2 {
-	font-family: 'girassol', serif;
 	font-size: 2rem;
+	font-family: 'girassol', serif;
 	font-weight: lighter;
 }
 
 @media (width<1024px) {
-	/* header */
-
 	.main-nav {
-		align-items: end;
 		justify-content: space-between;
+		align-items: end;
 	}
 
 	.header-nav {
@@ -42,18 +40,18 @@ body {
 	}
 
 	.header-nav-mobile {
-		position: absolute;
-		background-color: var(--color-primary);
-		border-radius: var(--border-radius-full);
 		display: flex;
 		flex-direction: column;
 		align-self: end;
+		position: absolute;
+		background-color: var(--color-primary);
 		border: 0.5px solid var(--color-activity);
+		border-radius: var(--border-radius-full);
 	}
 
 	.header-right {
-		padding-right: 1rem;
 		/* align-self: flex-end; */
+		padding-right: 1rem;
 	}
 
 	/* footer */
@@ -76,9 +74,9 @@ body {
 
 	.jackets {
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		flex-direction: column;
 		gap: 3rem;
 	}
 
@@ -92,10 +90,7 @@ body {
 	.info-box {
 		flex-direction: column;
 		align-items: center;
-		padding-left: 0;
-		padding-right: 0;
 	}
-
 	.about-txt {
 		width: auto;
 		padding: 0.7rem;
@@ -103,12 +98,10 @@ body {
 	}
 
 	.about-img {
+		order: -1;
 		width: 100%;
 		height: auto;
-		order: -1;
 	}
-
-	/* contact page */
 
 	/* product-info page */
 

@@ -1,7 +1,7 @@
 .nav-about {
 	background-color: var(--color-title);
-	color: var(--color-primary);
 	border-radius: var(--border-radius-top);
+	color: var(--color-primary);
 }
 .nav-about:hover {
 	color: var(--color-primary);
@@ -40,30 +40,29 @@
 .about-img {
 	display: flex;
 	height: 28.5rem;
-	object-fit: cover;
 }
 
 .about-txt {
-	background-color: var(--color-primary);
-	color: var(--color-secondary);
 	opacity: 0.9;
 	width: 25rem;
 	height: 28.5rem;
-	padding: 1rem;
 	margin: 0;
+	padding: 1rem;
+	background-color: var(--color-primary);
+	color: var(--color-secondary);
 }
 
 .info-top {
 	margin-top: 5rem;
-	/* padding-left: 15rem; */
+	padding-left: 15rem;
 }
 
 .info-middle {
 	margin: 5rem 0;
-	/* padding-right: 15rem; */
+	padding-right: 15rem;
 }
 
 .info-bottom {
 	margin-bottom: 5rem;
-	/* padding-left: 15rem; */
+	padding-left: 15rem;
 }
