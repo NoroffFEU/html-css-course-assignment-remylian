@@ -113,3 +113,16 @@ textarea {
 fieldset {
 	border: none;
 }
+
+@media (width<1024px) {
+	.forms {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.nav-contact {
+		background-color: #9cd7d3;
+		border-radius: var(--border-radius-bottom);
+		color: var(--color-primary);
+	}
+}
