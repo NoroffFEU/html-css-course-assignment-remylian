@@ -109,4 +109,15 @@ body {
 	}
 
 	/* contact page */
+
+	/* product-info page */
+
+	.visuals {
+		flex-direction: column;
+	}
+
+	.colour-and-size,
+	.img-button-wrapper {
+		align-self: center;
+	}
 }

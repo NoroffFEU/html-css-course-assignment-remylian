@@ -121,7 +121,7 @@ fieldset {
 	}
 
 	.nav-contact {
-		background-color: #9cd7d3;
+		background-color: var(--color-primary);
 		border-radius: var(--border-radius-bottom);
 		color: var(--color-primary);
 	}
