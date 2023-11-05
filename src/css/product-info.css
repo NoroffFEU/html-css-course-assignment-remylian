@@ -27,13 +27,13 @@
 .size-info {
 	margin: 0;
 	padding: 0.5rem;
-	border-bottom: 2px solid black;
+	border-bottom: var(--border-black);
 }
 
 .colour {
 	width: 2.75rem;
 	height: 2.75rem;
-	border: 1px solid black;
+	border: var(--border-black);
 }
 
 .sizes {
@@ -74,7 +74,6 @@
 .red:hover {
 	box-shadow: inset 3px 3px 3px 0 #270b0b;
 	transition: 0.5s;
-	border: 1px solid black;
 }
 
 .green {
@@ -89,7 +88,7 @@
 .img-button-wrapper img {
 	box-shadow: var(--box-shadow-black);
 	max-width: 40rem;
-	border-radius: 0.5rem;
+	border-radius: var(--border-radius-full);
 }
 
 .button-wrapper {
@@ -103,9 +102,9 @@
 	width: 20%;
 	padding: 1rem;
 	background-color: var(--color-title);
-	border: 1px solid black;
-	border-radius: 0.7rem;
-	font-size: 2rem;
+	border: var(--border-black);
+	border-radius: var(--border-radius-full);
+	font-size: var(--double-font);
 	font-weight: bold;
 	text-align: center;
 }
@@ -115,8 +114,8 @@
 	padding: 1rem;
 	background-color: var(--color-activity);
 	border: 2px solid var(--color-primary);
-	border-radius: 0.7rem;
-	font-size: 2rem;
+	border-radius: var(--border-radius-full);
+	font-size: var(--double-font);
 	font-weight: bold;
 	color: black;
 	text-align: center;
@@ -129,6 +128,7 @@
 
 h3 {
 	text-decoration: underline;
+	font-size: var(--double-font);
 }
 
 .description {
@@ -138,8 +138,9 @@ h3 {
 .description-text {
 	padding-block: 2rem;
 	width: 50%;
-	border-top: 2px solid black;
-	font-size: 1.1rem;
+	border-top: var(--border-black);
+	border-radius: var(--border-radius-top);
+	font-size: 1.3rem;
 	text-align: left;
 }
 
@@ -148,6 +149,10 @@ h3 {
 	padding-bottom: 1rem;
 	text-align: left;
 }
+.text-wrapper p {
+	font-size: 1.1rem;
+	font-weight: bold;
+}
 
 .description ol {
 	display: flex;
@@ -155,6 +160,8 @@ h3 {
 	justify-content: center;
 	align-items: center;
 	width: 52%;
-	border-bottom: 2px solid black;
+	border-bottom: var(--border-black);
+	border-radius: var(--border-radius-bottom);
 	text-align: left;
+	font-size: 1.1rem;
 }
