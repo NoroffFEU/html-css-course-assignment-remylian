@@ -67,45 +67,43 @@
 			<section class="contact-us centered">
 				<div class="info-text">
 					<p>
-						Please fill out the form and submit your Query, and one of our employees will respond by
+						Please fill out the form and submit your query, and one of our employees will respond by
 						your preferred method.
 					</p>
 				</div>
-
+			
 				<div class="boxes">
-					<div class="forms">
-						<div class="form-info">
-							<form action="" aria-labelledby="customerInfo">
-								<fieldset>
-									<div class="input-field">
-										<label for="Name">Name</label>
-										<input class="input-info" type="text" name="Name" id="Name" />
-									</div>
-
-									<div class="input-field">
-										<label for="eMail">eMail</label>
-										<input class="input-info" type="email" name="email" id="email" />
-									</div>
-
-									<div class="input-field">
-										<label for="phone">Phone nr</label>
-										<input class="input-info" type="tel" name="phone" id="phone" />
-									</div>
-								</fieldset>
-							</form>
-						</div>
-
-						<div class="form-query">
-							<form action="" aria-labelledby="yourQuery">
-								<fieldset>
-									<textarea
-										class="textarea-box"
-										name="query"
-										id="query"
-										cols="30"
-										rows="15"
-										placeholder="How may we be of service?"></textarea>
-								</fieldset>
+					<form action="" method="post">
+						<div class="forms">
+							<fieldset aria-labelledby="customerInfo">
+								<h2 id="customerInfo">Customer Information</h2>
+								<div class="input-field">
+									<label for="name">Name</label>
+									<input class="input-info" type="text" name="name" id="name" required />
+								</div>
+			
+								<div class="input-field">
+									<label for="email">Email</label>
+									<input class="input-info" type="email" name="email" id="email" required />
+								</div>
+			
+								<div class="input-field">
+									<label for="phone">Phone Number</label>
+									<input class="input-info" type="tel" name="phone" id="phone" />
+								</div>
+							</fieldset>
+			
+							<fieldset aria-labelledby="queryInfo">
+								<h2 id="queryInfo">Your Query</h2>
+								<textarea
+									class="textarea-box"
+									name="query"
+									id="query"
+									cols="30"
+									rows="15"
+									placeholder="How may we be of service?"
+									required></textarea>
+							</fieldset>
 							</form>
 						</div>
 					</div>
