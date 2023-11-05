@@ -40,6 +40,7 @@
 .about-img {
 	display: flex;
 	height: 28.5rem;
+	object-fit: cover;
 }
 
 .about-txt {
@@ -54,15 +55,15 @@
 
 .info-top {
 	margin-top: 5rem;
-	padding-left: 15rem;
+	/* padding-left: 15rem; */
 }
 
 .info-middle {
 	margin: 5rem 0;
-	padding-right: 15rem;
+	/* padding-right: 15rem; */
 }
 
 .info-bottom {
 	margin-bottom: 5rem;
-	padding-left: 15rem;
+	/* padding-left: 15rem; */
 }
