@@ -69,4 +69,12 @@ body {
 	.featured-items {
 		flex-direction: column;
 	}
+
+	.jackets {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		gap: 3rem;
+	}
 }
