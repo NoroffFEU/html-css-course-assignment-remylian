@@ -52,8 +52,8 @@ body {
 	}
 
 	.header-right {
-		align-self: flex-end;
-		padding-bottom: 1rem;
+		padding-right: 1rem;
+		/* align-self: flex-end; */
 	}
 
 	/* footer */
