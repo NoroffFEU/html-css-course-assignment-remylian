@@ -41,3 +41,7 @@ a {
 	display: flex;
 	align-items: end;
 }
+
+.hamburger {
+	display: none;
+}
