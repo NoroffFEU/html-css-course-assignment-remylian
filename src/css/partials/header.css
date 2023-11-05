@@ -11,10 +11,12 @@ a {
 	display: flex;
 	justify-content: space-around;
 	align-items: end;
+	width: 100%;
 }
 
 .header-right {
 	display: flex;
+	align-items: center;
 }
 
 .header-nav {
