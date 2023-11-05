@@ -120,4 +120,10 @@ body {
 	.img-button-wrapper {
 		align-self: center;
 	}
+
+	/* checkout page */
+
+	.forms {
+		flex-direction: column;
+	}
 }
