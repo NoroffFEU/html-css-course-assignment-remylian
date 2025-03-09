@@ -1,39 +1,61 @@
 # Rainydays
 
-**Description / Purpose:**  
-Rainydays is an e-commerce webpage dedicated to selling jackets for outdoor use. It was my second course assignment at Noroff and the very first website I built. The project tested my ability to convert a Figma design into a functional multipage web application using semantic HTML and modular CSS.
+![Screenshot](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
-## Project Brief Highlights
+Rainydays is an e-commerce webpage for selling jackets designed for outdoor use. This project served as my first course assignment at Noroff School of Technology and Digital Media and marked my initial foray into web development by transforming a Figma design into a functional, multipage web application.
 
-- **Multipage Structure:**  
-  The site includes every page listed in the site architecture provided by the assignment brief.
+## Description
 
-- **Semantic HTML:**  
-  The HTML is semantic, neatly formatted, and valid.
+Rainydays is a simple, multipage website that demonstrates the following:
 
-- **DRY CSS:**  
-  CSS follows the DRY (Don't Repeat Yourself) principle, making the styles easy to read and maintain.
+- **Responsive Design:** The site is built to look great on all devices using vanilla HTML and CSS.
+- **Semantic Markup:** HTML is structured semantically, is neatly formatted, and validated to ensure accessibility.
+- **Custom Styling:** CSS is written following the DRY principle and utilizes modern layout techniques such as Flexbox and CSS Grid.
+- **Interactive Elements:** Minimal JavaScript is used to mimic dynamic functionality (e.g., simulating login behavior and interactive transitions).
 
-- **Responsive Design:**  
-  The website is responsive and looks good at every screen size with no horizontal scrollbars. Flexbox and CSS Grid were used where appropriate (without using a framework like Bootstrap).
+**Assignment Brief Highlights:**
 
-- **Accessibility:**  
-  The site is WCAG compliant, with accessibility taken into account throughout the design.
+- The site includes every page listed in the provided site architecture.
+- Each page has unique `<meta name="description">`, `<title>`, and `<h1>` tags.
+- The website is WCAG compliant and accessible.
+- No external CSS frameworks were used—this project was built entirely with vanilla HTML, CSS, and JavaScript.
 
-- **Unique Meta Data:**  
-  Each page has a unique `<meta name="description">`, `<title>`, and `<h1>`.
-
-## Technologies Used
+## Built With
 
 - **HTML5** – Semantic and accessible markup.
-- **CSS3** – Custom styles without a framework.
+- **CSS3** – Custom styling (using Flexbox and CSS Grid).
 
 
-## Learning Experience
+## Getting Started
 
-This was my first encounter with responsive web design. I had a lot of fun working on it, and it was a tremendous learning experience that helped me understand flexible layouts and accessibility best practices.
+### Installing
 
-## Links
+1. Clone the repository:
 
-- **Repository:** [Rainydays Repository](https://github.com/NoroffFEU/html-css-course-assignment-remylian)
-- **Live Site:** [Rainydays Live](https://norofffeu.github.io/html-css-course-assignment-remylian/)
+   ```bash
+   git clone https://github.com/NoroffFEU/html-css-course-assignment-remylian.git
+
+2. Navigate to the project directory: 
+   ```bash
+   cd html-css-course-assignment-remylian
+
+3. Open index.html in your browser.
+
+## Running
+
+Simply open index.html in your browser, or use a local development server to view the website.
+
+##Contributing
+
+If you'd like to contribute to this project, please fork the repository and open a pull request with your proposed changes. Ensure your code follows the established coding standards and passes any validations.
+
+## Contact
+
+- **Email:** [remylian@gmail.com](mailto:remylian@gmail.com)
+- **GitHub:** [github.com/remylian](https://github.com/remylian)
+- **LinkedIn:** [linkedin.com/in/remy-lian-585518a1](https://www.linkedin.com/in/remy-lian-585518a1/)
+
+
+
+
+
