@@ -1,6 +1,6 @@
 # Rainydays
 
-![Screenshot](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](https://i.ibb.co/PzVpPz98/rainydays.png)
 
 Rainydays is an e-commerce webpage for selling jackets designed for outdoor use. This project served as my first course assignment at Noroff School of Technology and Digital Media and marked my initial foray into web development by transforming a Figma design into a functional, multipage web application.
 
