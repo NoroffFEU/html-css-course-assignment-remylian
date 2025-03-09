@@ -1,0 +1,128 @@
+.nav-contact {
+	background-color: var(--color-title);
+	border-radius: var(--border-radius-top);
+	color: var(--color-primary);
+}
+
+.nav-contact:hover {
+	color: var(--color-primary);
+}
+
+.contact-us {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.info-text,
+.info-response {
+	padding-block: 3rem;
+	display: flex;
+	justify-content: center;
+}
+
+.info-text p,
+.info-response p {
+	margin: 0;
+	padding: 1rem;
+	background-color: var(--color-primary);
+	border-radius: var(--border-radius-full);
+	color: var(--color-secondary);
+}
+
+.boxes {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-bottom: 5rem;
+}
+
+.forms {
+	border-block: var(--border-black);
+	display: grid;
+	gap: 9rem;
+	grid-template-columns: repeat(2, 1fr);
+	width: 100%;
+	border-radius: var(--border-radius-full);
+}
+
+.form-info {
+	display: flex;
+	align-self: baseline;
+	width: 100%;
+}
+
+.form-query {
+	flex-direction: column;
+	align-self: flex-end;
+	padding: 1rem;
+}
+
+.textarea-box {
+	padding: 0.5rem;
+}
+
+.input-field {
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	width: 100%;
+	padding-bottom: 1rem;
+}
+
+.response {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	width: 50%;
+	padding-bottom: 3rem;
+}
+
+.response-icons {
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 2rem;
+}
+
+.response button {
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	width: 40%;
+	margin: auto auto;
+	padding: 0.5rem;
+	background-color: var(--color-activity);
+	border-radius: var(--border-radius-full);
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.input-info {
+	box-shadow: var(--box-shadow-grey);
+	width: 100%;
+	padding: 1rem;
+	border-radius: var(--border-radius-full);
+}
+
+textarea {
+	box-shadow: var(--box-shadow-grey);
+	border-radius: var(--border-radius-full);
+}
+
+fieldset {
+	border: none;
+}
+
+@media (width<1024px) {
+	.forms {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.nav-contact {
+		background-color: var(--color-primary);
+		border-radius: var(--border-radius-bottom);
+		color: var(--color-primary);
+	}
+}

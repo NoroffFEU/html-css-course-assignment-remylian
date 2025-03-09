@@ -1,33 +1,61 @@
-# HTML & CSS Course Assignment
+# Rainydays
 
-## Brief
+![image](https://i.ibb.co/PzVpPz98/rainydays.png)
 
-You must deliver a properly functioning, responsive website for the assignment brief you chose in Design 1.
+Rainydays is an e-commerce webpage for selling jackets designed for outdoor use. This project served as my first course assignment at Noroff School of Technology and Digital Media and marked my initial foray into web development by transforming a Figma design into a functional, multipage web application.
 
-The site needs to have every page listed in the site architecture on your chosen brief. Certain functionality requiring JavaScript can be mimicked; for example, a login page could link across from the ‘Sign in’ button.
+## Description
 
-- The HTML should be semantic and neat.
-- The CSS should follow the DRY principle and be easy to read.
-- The website should be responsive and look good at every screen size with no horizontal scrollbars. Use Flexbox and CSS Grids where appropriate. Please do not use a CSS framework like Bootstrap; we want to see that you can build responsive sites without the help of a framework.
-- The site should be WCAG compliant, and accessibility should be taken into account.
-- Each page should have a unique <meta name="description">, <title>, and <h1>.
-- You should not use copied code in your submission. All code submitted must be written by yourself. You may use external sources to show you how to achieve specific effects, which should be included in your report.
+Rainydays is a simple, multipage website that demonstrates the following:
 
-## Process
+- **Responsive Design:** The site is built to look great on all devices using vanilla HTML and CSS.
+- **Semantic Markup:** HTML is structured semantically, is neatly formatted, and validated to ensure accessibility.
+- **Custom Styling:** CSS is written following the DRY principle and utilizes modern layout techniques such as Flexbox and CSS Grid.
+- **Interactive Elements:** Minimal JavaScript is used to mimic dynamic functionality (e.g., simulating login behavior and interactive transitions).
 
-1. Look at your prototype and consider how the elements will move across the different devices. Which elements move where on different devices?
-2. Write your HTML and CSS, ensuring your HTML is semantic and bug-free and your CSS follows DRY principles.
-3. Use media queries, flex or grid to make your website responsive across screen sizes.
-4. Test your website using your developer tools and also test on major browsers and various devices.
-5. Validate your code using the Markup Validation Service
-6. Use the WAVE Web Accessibility Evaluation Tools to test that your site matches best practices for accessibility
-7. When your site is ready, post it on the Teams peer review channel.
-8. Look at the work of your peers and write a review for them.
-9. Make adjustments based on the feedback you gather from peers and teachers.
-10. Submit here on Teams.
+**Assignment Brief Highlights:**
 
-## Delivery
+- The site includes every page listed in the provided site architecture.
+- Each page has unique `<meta name="description">`, `<title>`, and `<h1>` tags.
+- The website is WCAG compliant and accessible.
+- No external CSS frameworks were used—this project was built entirely with vanilla HTML, CSS, and JavaScript.
 
-- Please include a link to your live site, deployed on Netlify or GitHub Pages in your submission.
-- Please include a link to your public GitHub repo containing your code in your submission.
-- There is no reflection for this CA.
+## Built With
+
+- **HTML5** – Semantic and accessible markup.
+- **CSS3** – Custom styling (using Flexbox and CSS Grid).
+
+
+## Getting Started
+
+### Installing
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/NoroffFEU/html-css-course-assignment-remylian.git
+
+2. Navigate to the project directory: 
+   ```bash
+   cd html-css-course-assignment-remylian
+
+3. Open index.html in your browser.
+
+## Running
+
+Simply open index.html in your browser, or use a local development server to view the website.
+
+##Contributing
+
+If you'd like to contribute to this project, please fork the repository and open a pull request with your proposed changes. Ensure your code follows the established coding standards and passes any validations.
+
+## Contact
+
+- **Email:** [remylian@gmail.com](mailto:remylian@gmail.com)
+- **GitHub:** [github.com/remylian](https://github.com/remylian)
+- **LinkedIn:** [linkedin.com/in/remy-lian-585518a1](https://www.linkedin.com/in/remy-lian-585518a1/)
+
+
+
+
+

@@ -1,0 +1,122 @@
+@import url('./src/css/partials/reset.css');
+@import url('./src/css/partials/variables.css');
+@import url('./src/css/partials/header.css');
+@import url('./src/css/partials/footer.css');
+@import url('./src/css/partials/banner.css');
+@import url('./src/css/partials/title.css');
+@import url('./src/css/partials/jackets.css');
+
+body {
+	background-color: var(--color-secondary);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: var(--color-primary);
+}
+
+.centered {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.title h2 {
+	font-size: 2rem;
+	font-family: 'girassol', serif;
+	font-weight: lighter;
+}
+
+@media (width<1024px) {
+	.main-nav {
+		justify-content: space-between;
+		align-items: end;
+	}
+
+	.header-nav {
+		display: none;
+	}
+
+	.hamburger {
+		display: flex;
+	}
+
+	.header-nav-mobile {
+		display: flex;
+		flex-direction: column;
+		align-self: end;
+		position: absolute;
+		background-color: var(--color-primary);
+		border: 0.5px solid var(--color-activity);
+		border-radius: var(--border-radius-full);
+	}
+
+	.header-right {
+		/* align-self: flex-end; */
+		padding-right: 1rem;
+	}
+
+	/* footer */
+
+	.footer-left {
+		display: none;
+	}
+
+	.footer-socialmedia {
+		gap: 0.5rem;
+	}
+
+	/* landing page: */
+
+	.featured-items {
+		flex-direction: column;
+	}
+
+	/* product pages */
+
+	.jackets {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 3rem;
+	}
+
+	/* about page: */
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.info-box {
+		flex-direction: column;
+		align-items: center;
+	}
+	.about-txt {
+		width: auto;
+		padding: 0.7rem;
+		text-align: justify;
+	}
+
+	.about-img {
+		order: -1;
+		width: 100%;
+		height: auto;
+	}
+
+	/* product-info page */
+
+	.visuals {
+		flex-direction: column;
+	}
+
+	.colour-and-size,
+	.img-button-wrapper {
+		align-self: center;
+	}
+
+	/* checkout page */
+
+	.forms {
+		flex-direction: column;
+	}
+}

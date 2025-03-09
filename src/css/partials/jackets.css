@@ -1,0 +1,76 @@
+.jackets {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(3, 20rem);
+	grid-gap: 8rem;
+	padding: 10rem 0;
+}
+.jacket-name {
+	padding: var(--card-name-padding);
+	background-color: white;
+	border-bottom: 0.3px solid var(--color-primary);
+	border-radius: var(--border-radius-top);
+	font-size: 1.5rem;
+	font-weight: var(--card-text-bold);
+	color: var(--color-primary);
+	text-align: center;
+}
+
+.jacket-card {
+	position: relative;
+	width: 20rem;
+	height: auto;
+}
+
+.jacket-card .jacket-name {
+	transition: background-color 0.5s;
+}
+
+.jacket-card a:hover .jacket-name {
+	background-color: var(--color-title);
+	color: black;
+}
+
+.jacket-price {
+	rotate: -45deg;
+	position: absolute;
+	z-index: -1;
+	bottom: 0;
+	right: 0;
+	padding-bottom: 1rem;
+	font-size: 1.5rem;
+	color: black;
+}
+
+.jacket-card img:hover {
+	transition: 0.5s;
+	border-radius: 0 0 10rem 0;
+}
+
+.jacket-card img {
+	box-shadow: var(--box-shadow-black);
+	width: 100%;
+	height: auto;
+	transition: border-radius 0.5s;
+	border-radius: var(--border-radius-bottom);
+}
+
+.jacket-btn {
+	display: block;
+	width: 100%;
+	margin-top: 1rem;
+	padding: 0.5rem;
+	background-color: var(--color-activity);
+	border: var(--border-black);
+	border-radius: 0.5rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+
+.jacket-btn:hover {
+	transition: 0.4s;
+	background-color: var(--color-primary);
+	color: var(--color-activity);
+}
